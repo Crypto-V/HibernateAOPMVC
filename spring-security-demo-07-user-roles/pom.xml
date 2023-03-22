@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.yes2code</groupId>
-	<artifactId>spring-security-demo-02-base-security</artifactId>
+	<artifactId>spring-security-demo-04-bootstrap-login-form</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
 	<name>spring-security-demo</name>
@@ -37,6 +37,15 @@
 			<artifactId>spring-security-config</artifactId>
 			<version>${springsecurity.version}</version>
 		</dependency>
+		
+		<!-- Add Spring Security Taglibs support -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>${springsecurity.version}</version>
+		</dependency>
+		
+		
 		<!-- Servlet, JSP and JSTL support -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -63,7 +72,7 @@
 	</dependencies>
 	<!-- TO DO: Add support for Maven WAR Plugin -->
 	<build>
-		<finalName>spring-security-demo-02-base-security</finalName>
+		<finalName>spring-security-demo-04-bootstrap-login-form</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>

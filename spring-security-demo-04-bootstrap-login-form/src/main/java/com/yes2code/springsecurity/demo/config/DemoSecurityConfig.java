@@ -26,14 +26,15 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		
-		//Configure the web path for incomming requests
+		//Configure the web path for incoming requests
 		http.authorizeRequests()
+				.antMatchers("/css/**").permitAll()
 				.anyRequest().authenticated()
 				.and()
 				.formLogin()
-				.loginPage("/showMyLoginPage")
-				.loginProcessingUrl("/authenticateTheUser")
-				.permitAll();
+					.loginPage("/showMyLoginPage")
+					.loginProcessingUrl("/authenticateTheUser")
+					.permitAll();
 		
 	}
 	
@@ -42,3 +43,4 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 	
 
 }
+ 

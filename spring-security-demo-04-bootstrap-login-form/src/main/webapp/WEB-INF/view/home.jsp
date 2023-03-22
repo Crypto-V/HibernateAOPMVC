@@ -2,11 +2,12 @@
 <html>
 <head>
 <tittle>Hello page</tittle>
+<link rel="stylesheet" type="text/css" href="css/demo.css">
 
 </head>
 
 <body>
-	<h2>Yes 2 code company Home Page</h2>
+	<h3>Yes 2 code company Home Page</h3>
 
 	<hr>
 
