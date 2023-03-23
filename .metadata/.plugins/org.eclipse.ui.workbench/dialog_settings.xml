@@ -11,26 +11,24 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="org.eclipse.tm.terminal.view.ui.TerminalsView"/>
+			<item value="org.eclipse.ui.console.ConsoleView"/>
+			<item value="org.eclipse.wst.server.ui.ServersView"/>
 			<item value="org.eclipse.ui.browser.openBrowser"/>
-			<item value="/spring-security-demo-02-basic-security/src/main/webapp/WEB-INF/view/home.jsp"/>
 			<item value="org.eclipse.ui.navigator.ProjectExplorer"/>
 			<item value="org.eclipse.ui.editors.preferencePages.HyperlinkDetectorsPreferencePage"/>
 			<item value="org.eclipse.ui.window.preferences"/>
 			<item value="org.eclipse.jdt.ui.preferences.CompliancePreferencePage"/>
-			<item value="org.eclipse.tm.terminal.view.ui.TerminalsView"/>
-			<item value="org.eclipse.wst.server.ui.ServersView"/>
-			<item value="org.eclipse.ui.console.ConsoleView"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.ui.commands"/>
-			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.ui.preferences"/>
 			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.ui.preferences"/>
-			<item value="org.eclipse.e4.ui.parts"/>
-			<item value="org.eclipse.e4.ui.parts"/>
-			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textEntries">
 			<item value="1"/>
@@ -41,18 +39,16 @@
 			<item value="1"/>
 			<item value="1"/>
 			<item value="1"/>
-			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="terminal"/>
+			<item value="console"/>
+			<item value="servers"/>
 			<item value="open web "/>
-			<item value="home"/>
 			<item value="project ex"/>
 			<item value="hyper"/>
 			<item value="preferences"/>
 			<item value="jdk "/>
-			<item value="terminal"/>
-			<item value="servers"/>
-			<item value="console"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.preferences.keysPreferencePage">

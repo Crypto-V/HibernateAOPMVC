@@ -22,25 +22,33 @@
 	<security:authentication property="principal.username" />
 
 	<br>
-	<br> 
-	Role(s):
+	<br> Role(s):
 	<security:authentication property="principal.authorities" />
-	
-	
 	<hr>
+
+
 	<!--  Add a link to point to leaders ... this is for the managers -->
-	<p>
-	<a href = "${pageContext.request.contextPath}/leaders"> Leadership meeting</a>
-	(Only for manager )
-	</p>
+	<security:authorize access="hasRole('Manager')">
+
+		<p>
+			<a href="${pageContext.request.contextPath}/leaders"> Leadership
+				meeting</a> (Only for manager )
+		</p>
+
 	<hr>
-	
-	<hr>
+
+	</security:authorize>
+
+
+
 	<!--  Add a link to point to systems ... this is for the administrator -->
-	<p>
-	<a href = "${pageContext.request.contextPath}/systems"> Administrator Meeting</a>
-	(Only for Administrator )
-	</p>
+	<security:authorize access="hasRole('Administrator')">
+		
+		<p>
+			<a href="${pageContext.request.contextPath}/systems">
+				Administrator Meeting</a> (Only for Administrator )
+		</p>
+	</security:authorize>
 	<hr>
 
 	<!-- Add logout page -->

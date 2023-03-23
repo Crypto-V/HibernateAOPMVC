@@ -22,7 +22,7 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 		auth.inMemoryAuthentication()
 				.withUser(users.username("Vasile").password("test123").roles("Employee", "Manager"));
 		auth.inMemoryAuthentication()
-				.withUser(users.username("Peter").password("test123").roles("Employee","Manager", "Administrator"));
+				.withUser(users.username("Peter").password("test123").roles("Employee", "Manager", "Administrator"));
 	}
 
 	@Override
@@ -30,17 +30,14 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 
 		// Configure the web path for incoming requests
 		http.authorizeRequests()
-		.antMatchers("/").hasAnyRole("Employee","Manager","Administrator")
-		.antMatchers("/leaders/**").hasAnyRole("Manager","Administrator")
+		.antMatchers("/").hasAnyRole("Employee", "Manager", "Administrator")
+		.antMatchers("/leaders/**").hasAnyRole("Manager", "Administrator")
 		.antMatchers("/systems/**").hasRole("Administrator")
-		.and()
-			.formLogin()
-					.loginPage("/showMyLoginPage")
-					.loginProcessingUrl("/authenticateTheUser")
-					.permitAll()
-		.and()
-			.logout()
-			.permitAll();
+		.and().formLogin()
+			.loginPage("/showMyLoginPage")
+			.loginProcessingUrl("/authenticateTheUser").permitAll()
+		.and().logout().permitAll()
+		.and().exceptionHandling().accessDeniedPage("/access-denied");
 
 	}
 

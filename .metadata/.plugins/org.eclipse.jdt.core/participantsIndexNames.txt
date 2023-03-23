@@ -3,6 +3,8 @@ C:\Users\verej\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jsp
 \spring-security-demo-01-base-app\src\main\java
 C:\Users\verej\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1514348238.index
 \spring-security-demo-02-basic-security\src\main\java
+C:\Users\verej\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1476910352.index
+\spring-security-demo-08-jdbc-plaintext\src\main\java
 C:\Users\verej\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4261569207.index
 \web-customer-tracker\src
 C:\Users\verej\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2178144631.index
@@ -13,6 +15,8 @@ C:\Users\verej\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jsp
 \spring-security-demo\src\main\java
 C:\Users\verej\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3469264943.index
 \spring-security-demo-07-user-roles\src\main\java
+C:\Users\verej\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2808932448.index
+\spring-security-demo-09-jdbc-bcrypt\src\main\java
 C:\Users\verej\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\185871768.index
 \web-customer-tracker\src
 C:\Users\verej\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3659304352.index
