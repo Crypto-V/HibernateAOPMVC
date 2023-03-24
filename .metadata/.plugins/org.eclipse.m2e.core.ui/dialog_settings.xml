@@ -6,6 +6,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\verej\eclipse-workspace\spring-crm-rest-demo"/>
+			<item value="C:\Users\verej\Downloads\spring-crm-rest-demo\spring-crm-rest-demo"/>
+			<item value="C:\Users\verej\Downloads\spring-rest-demo\spring-rest-demo"/>
 			<item value="C:\Users\verej\Downloads\jackson-databinding-json-demo\jackson-databinding-json-demo"/>
 			<item value="C:\Users\verej\Downloads\spring-hibernate-course\spring-security-demo-starter\spring-security-demo-01-base-app"/>
 		</list>
