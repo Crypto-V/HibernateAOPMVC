@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\verej\Downloads\jackson-databinding-json-demo\jackson-databinding-json-demo"/>
 			<item value="C:\Users\verej\Downloads\spring-hibernate-course\spring-security-demo-starter\spring-security-demo-01-base-app"/>
 		</list>
 		<list key="projectNameTemplate">
